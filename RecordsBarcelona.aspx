@@ -65,11 +65,12 @@
 		</div>
 		<div id="fh5co-main-content">
 			<div class="fh5co-post"> 
-				<div class="fh5co-entry padding" style="background-color: #99FF33">
-					
+				<div class="fh5co-entry padding" style="background-color: #00FF00">
+					<img src="images/ok.png">
 					<div>
 						<span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
-						<h2><a href="MaximoGoleadorBarcelona.aspx">Máximo goleador en partidos oficiales: 551 goles</a></h2>
+						<h2><a href="MaximoGoleadorBarcelona.aspx">Máximo goleador en partidos oficiales: 551 goles</a>                           
+						</h2>
 						<p></p>
 					</div>
 				</div>
