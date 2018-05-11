@@ -65,7 +65,7 @@
 		</div>
 		<div id="fh5co-main-content">
 			<div class="fh5co-post"> 
-				<div class="fh5co-entry padding" style="background-color: #00FF00">
+				<div class="fh5co-entry padding" style="background-color: #93E393">
 					<img src="images/ok.png">
 					<div>
 						<span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
