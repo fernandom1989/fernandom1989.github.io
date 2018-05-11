@@ -448,7 +448,7 @@ footer {
   margin-left: 38.1966%;
   position: relative;
   z-index: 999;
-    margin-right: 1px;
+    margin-right: 5px;
 }
 .single #fh5co-main-content {
   margin-left: 0;
@@ -534,7 +534,6 @@ footer {
 .fh5co-post .fh5co-entry > div h2 {
   margin-bottom: 10px;
   font-weight: 100;
-    width: 684px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post .fh5co-entry > div h2 {
