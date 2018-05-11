@@ -448,6 +448,7 @@ footer {
   margin-left: 38.1966%;
   position: relative;
   z-index: 999;
+    margin-right: 5px;
 }
 .single #fh5co-main-content {
   margin-left: 0;
@@ -493,12 +494,14 @@ footer {
 }
 .fh5co-post .fh5co-entry > img {
   float: right;
-  width: 10%;
+  width: 13%;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+    height: 88px;
+    margin-top: 0px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post .fh5co-entry > img {
@@ -862,9 +865,9 @@ footer {
 
 .fh5co-loader {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
+  left: -102px;
+  top: -114px;
+  width: 98%;
   height: 100%;
   z-index: 9999;
   background: url(../images/loader.gif) center no-repeat #fff;
