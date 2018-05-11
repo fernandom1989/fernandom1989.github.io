@@ -65,16 +65,8 @@
 		</div>
 		<div id="fh5co-main-content">
 			<div class="fh5co-post"> 
-				<div class="fh5co-entry padding" style="background-color: #93E393">
-					<img src="images/ok.png">
-					<div>
-						<span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
-						<h2><a href="MaximoGoleadorBarcelona.aspx">Máximo goleador en partidos oficiales: 551 goles</a>                           
-						</h2>
-						<p></p>
-					</div>
-				</div>
-                <div class="fh5co-entry padding">
+
+				<div class="fh5co-entry padding" style="background-color: #ABE9AB">
 					<img src="images/ok.png">
 					<div>
 						<span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
@@ -83,6 +75,24 @@
 					</div>
 				</div>
 
+		
+                <div class="fh5co-entry padding" style="background-color: #ABE9AB">
+					<img src="images/ok.png">
+					<div>
+						<span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
+						<h2><a href="MaximoGoleadorBarcelona.aspx">Máximo goleador en partidos oficiales: 551 goles</a></h2>
+						<p></p>
+					</div>
+				</div>
+
+                 <div class="fh5co-entry padding">
+                     <img src="images/133.jpg">
+					<div>
+						<span class="fh5co-post-date">Actualizado al 10 de Mayo, 2018</span>
+						<h2><a href="MaximoGoleadorBarcelona.aspx">Jugadores con más partidos oficiales</a></h2>                      
+						<p></p>
+					</div>
+				</div>
 
 			
 				<footer>
