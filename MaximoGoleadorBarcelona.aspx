@@ -102,7 +102,7 @@
     <tr class =" alert-success">
       <th scope="row">1</th>
       <td>Lionel Messi</td>
-      <td>2004-Act. (14)</td>
+      <td>2004-Act. </td>
       <td>550</td>
       <td>634</td>
       <td>0.87</td>

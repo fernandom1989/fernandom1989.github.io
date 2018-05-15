@@ -62,7 +62,16 @@
             </nav>
             <div class="page-title">
                 <img src="images/escudobarcelona.png" alt="Free HTML5 by FreeHTMl5.co">
-                <span>Mayo 10, 2017</span>
+                <span>
+                    
+                    <script>
+                        var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                        var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                        var f = new Date();
+                        document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                    </script>
+
+                </span>
                 <h2>Maximo Goleador del Barcelona en partidos oficiales</h2>
             </div>
         </div>
@@ -87,7 +96,7 @@
                                         <tr class=" alert-success">
                                             <th scope="row">1</th>
                                             <td>Lionel Messi</td>
-                                            <td>2004-Act. (14)</td>
+                                            <td>2004-Act</td>
                                             <td>Argentina</td>
                                             <td>550</td>
                                         </tr>
@@ -125,7 +134,7 @@
                                         <tr class=" alert-success">
                                             <th scope="row">6</th>
                                             <td>Luis Suárez</td>
-                                            <td>2014-Pres.</td>
+                                            <td>2014-Act</td>
                                             <td>Uruguay</td>
                                             <td>149</td>
                                         </tr>

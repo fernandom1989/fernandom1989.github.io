@@ -63,20 +63,30 @@
         <div id="fh5co-main-content">
             <div class="fh5co-post">
 
-                <div class="fh5co-entry padding" style="background-color: #ABE9AB">
-                    <img src="images/ok.png">
+                <div class="fh5co-entry padding" style="background-color: #ABE9AB">                   
                     <div>
-                        <span class="fh5co-post-date">Actualizado al 03 de Mayo, 2018</span>
-                        <h2><a href="MaximoGoleadorBarcelona.html">Máximo goleador en partidos oficiales: 551 goles</a></h2>
+                        <span class="fh5co-post-date">
+                            <script>
+                            var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                            var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                            var f = new Date();
+                            document.write("Actualizado al " + diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                    </script>
+                        </span>
+                        <h2><a href="MaximoGoleadorBarcelona.html">Máximo goleador en partidos oficiales</a></h2>
                         <p></p>
                     </div>
                 </div>
 
                 <div class="fh5co-entry padding">
-                    <img src="images/133.jpg">
                     <div>
-                        <span class="fh5co-post-date">Actualizado al 10 de Mayo, 2018</span>
-                        <h2><a href="MayorCantidadPartidosDisputados.html">Jugadores con más partidos oficiales disputados</a></h2>
+                        <span class="fh5co-post-date"><script>
+                            var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                            var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                            var f = new Date();
+                            document.write("Actualizado al " + diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script></span>
+                        <h2><a href="MayorCantidadPartidosDisputados.html">Jugador con más partidos oficiales</a></h2>
                         <p></p>
                     </div>
                 </div>
