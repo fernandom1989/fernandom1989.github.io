@@ -62,7 +62,12 @@
             </nav>
             <div class="page-title">
                 <img src="images/escudobarcelona.png" alt="Free HTML5 by FreeHTMl5.co">
-                <span>Mayo 10, 2017</span>
+                <span><script>
+                    var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                    var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                    var f = new Date();
+                    document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script></span>
                 <h2>Jugador con mas partidos oficiales disputados</h2>
             </div>
         </div>
@@ -86,9 +91,7 @@
 
                                     <tr>
                                         <td align="center">1</td>
-                                        <td><img alt="Bandera de España" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/15px-Flag_of_Spain.svg.png" title="Bandera de España"> Xavi Hernández</td>
-                                        <td align="left"><span class="flagicon"><img alt="Bandera de España" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/15px-Flag_of_Spain.svg.png" title="Bandera de España" width="15" height="10" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/30px-Flag_of_Spain.svg.png 2x" data-file-width="750" data-file-height="500" /></span> <a href="/wiki/Xavi_Hern%C3%A1ndez" title="Xavi Hernández">Xavi Hernández</a></td>
-
+                                        <td><img alt="Bandera de España" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/15px-Flag_of_Spain.svg.png" title="Bandera de España"> Xavi Hernández</td>                                       
                                         <td>767</td>
                                         <td>1998-2015</td>
                                     </tr>
